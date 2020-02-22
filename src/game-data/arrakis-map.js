@@ -15,3 +15,4 @@ export default arrakisMap;
 
 // map file - the actual map structure, relation between
 // regions, distances etc. types: sand/rock/stronghold
+// NEEDS TO ACCOUNT FOR SECTORS

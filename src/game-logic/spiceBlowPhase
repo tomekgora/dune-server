@@ -1,0 +1,14 @@
+draw spice card
+    if not shei-thalud place spice on region
+        draw second spice card 
+            (if not shei-thalud place spice on region)
+
+    if shei-thalud game-phase ---> Nexus
+        player discussion
+        allow alliances to form 
+            both players must agree to alliance
+        
+    If all players are done with negotiation
+    or all but 1 player are done with negotiation
+    proceed to next part of SPICE BLOW 
+    or else proceed to Bidding Phase

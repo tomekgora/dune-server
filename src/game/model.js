@@ -6,11 +6,19 @@ const Game = db.define("game", {
     type: Sequelize.STRING,
     allowNull: false
   },
-  gamePlayers: {}, // all player IDs (rel)
   currentPhase: {
     type: Sequelize.STRING,
     allowNull: false
   },
+  stormPosition: {
+    type: Sequelize.INTEGER,
+    allowNull: false
+  },
+  firstPlayer: {
+    type: Sequelize.INTEGER,
+    allowNull: false
+  },
+  gamePlayers: {}, // all player IDs (rel)
   treacheryDeck: {}, // cards still in deck  (rel)
   stormDeck: {}, // cards still in deck   (rel)
   spiceDeck: {} // cards still in deck  (rel)

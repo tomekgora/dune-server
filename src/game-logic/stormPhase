@@ -1,0 +1,8 @@
+draw card from storm deck stormDeck[0]
+move storm by moveStorm amount
+for every field passed by the storm
+    - all positions between current storm and prev 
+    - destroy spice
+    - destroy troops
+    - unless fremen (destroy half)
+    - mark new FirstPlayer

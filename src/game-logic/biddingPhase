@@ -5,3 +5,13 @@ Constraints:
         the spice for purchase
     
     start with first player - position ahead of storm
+    player choices: 
+        - bid spice (amount < previous bid)
+        - pass
+    
+    if all but one pass 
+        - bid spice to emperor
+        - card to playerHand
+    
+    Next round of bidding, unless no cards left
+    Then NEXT PHASE
