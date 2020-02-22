@@ -5,11 +5,11 @@ const Player = db.define("player", {
   playerFaction: {},
   playerSpice: {},
   playerTroops: {},
-  playerTraitors: {},
-  playerTreacheryCards: {},
-  playerOccupiedRegions: {}
+  playerTraitorHand: {}, // (rel)
+  playerTreacheryHand: {}, // (rel)
+  playerOccupiedRegions: {} // (rel)
 });
 
 // need to think this through
 
-module.exports = User;
+module.exports = Player;

@@ -1,0 +1,9 @@
+Game
+    - players
+    - map state (spice, troops)
+    - deck states
+        - spice deck (contents + discard pile)
+        - storm deck
+        - treachery deck 
+    - game phase
+    - game state (won - continuing)

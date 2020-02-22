@@ -8,3 +8,17 @@
 6. Battle
 7. Mentat
     Check for winner
+
+START OFF WITH JUST THE FIRST PHASES:
+    INITIATION 
+    STORM 
+    SPICE BLOW 
+    BIDDING 
+
+BIDDING phase
+    - check number of treachery cards each player holds
+    - deal number of cards === num of player without max cards
+    - first player bids first
+    - continue bidding counter-clockwise
+    - if all but 1 pass add card to player deck
+    - pay spice from player to Emperor
