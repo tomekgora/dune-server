@@ -21,3 +21,5 @@ const spiceDeck = [
   { id: 20, name: "Shai-Hulud" },
   { id: 21, name: "Shai-Hulud" }
 ];
+
+export default spiceDeck;
