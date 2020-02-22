@@ -1,0 +1,7 @@
+Constraints:
+    Players can not bid if they have full hand
+    Players can not bid more spice than they have
+        unless they are allied and their ally fronts
+        the spice for purchase
+    
+    start with first player - position ahead of storm
